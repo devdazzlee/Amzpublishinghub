@@ -10,7 +10,7 @@ const Form = () => {
     textarea: '',
     number: ''
   });
-
+ 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prevState => ({
